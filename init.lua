@@ -17,7 +17,7 @@ require 'ask-before-quiting'
 -- Lock System
 hs.hotkey.bind(hyper, 'Q', 'Lock system', function() hs.caffeinate.lockScreen() end)
 -- Sleep system
-hs.hotkey.bind(hyper, 'S', 'Put system to sleep',function() hs.caffeinate.systemSleep() end)
+-- hs.hotkey.bind(hyper, 'S', 'Put system to sleep',function() hs.caffeinate.systemSleep() end)
 
 -- Window Hints
 hs.hints.style = 'vimperator'
